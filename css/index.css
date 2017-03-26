@@ -12,16 +12,17 @@
     background-color: black;
     opacity: 0.9;
 }
-
-
-
-.aboutUs{
-    background-color: #EA4335;
-}
-
-.aboutUs .aboutUsBgImage{
+.titleName{
+    font-size: 1.5rem;
+    color:#ffffff;
+    width: 100%;
+    letter-spacing: 0.2rem;
+    display: inline-block;
+    text-align: center;
     position: absolute;
+    top:82%
 }
+
 
 .homePage{
     background-color: #33CC99;
@@ -34,10 +35,7 @@
     text-align: center;
     position: absolute;
     top:40%;
-
 }
-
-
 
 .photo{
     background-color: #FFFF00;
@@ -53,6 +51,16 @@
 .videoShow .videoBgImage{
     position: absolute;
 }
+
+.videoShow h2{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:80%;
+}
 .unName1{
     background-color: #99CC33;
 }
@@ -63,6 +71,15 @@
 
 .unName2{
     background-color: #2D3E50;
+}
+
+
+.aboutUs{
+    background-color: #EA4335;
+}
+
+.aboutUs .aboutUsBgImage{
+    position: absolute;
 }
 
 .unName2 .unName2BgImage{
