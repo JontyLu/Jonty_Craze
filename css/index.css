@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.divBox{
+    width: 100%;
+    transition: background-color 0.5s;
+    position: relative;
+
+}
+.divBox:hover{
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+
+.aboutUs{
+    background-color: #EA4335;
+}
+
+.aboutUs .aboutUsBgImage{
+    position: absolute;
+}
+
+.homePage{
+    background-color: #33CC99;
+}
+.homePage h1{
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top:40%;
+
+}
+
+
+
+.photo{
+    background-color: #FFFF00;
+}
+.photo .photoBgImage{
+    position: absolute;
+}
+
+.videoShow{
+    background-color: #FFC41A;
+}
+
+.videoShow .videoBgImage{
+    position: absolute;
+}
+.unName1{
+    background-color: #99CC33;
+}
+
+.unName1 .unName1BgImage{
+    position: absolute;
+}
+
+.unName2{
+    background-color: #2D3E50;
+}
+
+.unName2 .unName2BgImage{
+    position: absolute;
+    transform: rotate(19deg);
+}
