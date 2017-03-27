@@ -23,3 +23,19 @@ window.onresize = function () {
         }
          }
 };
+
+/*
+* 移动端滚动显示动画
+* */
+/*
+document.getElementsByClassName("divBox").addEventListener("scroll",scrollAnimation);
+function scrollAnimation(){
+        var obj = document.getElementsByClassName("divBox");
+        var topA = obj[this].offsetTop;
+        var top =  document.documentElement.scrollTop;
+        if ((topA - top) <=window.innerHeight){
+            var child = obj[this].child("span");
+            child.style.animation();
+        }
+
+}*/
