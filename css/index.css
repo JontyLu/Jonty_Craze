@@ -7,21 +7,33 @@
     transition: background-color 0.5s;
     position: relative;
 
+
 }
-.divBox:hover{
+.divBox:not(:first-child):hover{
     background-color: black;
     opacity: 0.9;
 }
 .titleName{
-    font-size: 1.5rem;
+    font-size: 1rem;
     color:#ffffff;
     width: 100%;
     letter-spacing: 0.2rem;
     display: inline-block;
     text-align: center;
     position: absolute;
-    top:82%
+    top:80%;
+    visibility: hidden;
 }
+.divBox:hover .titleName{
+    visibility: visible;
+    animation: bounce 0.1s;
+}
+@keyframes bounce {
+    from,to{
+        transform: translateY(30vh) scaleY(.98);
+    }
+}
+
 
 
 .homePage{
@@ -38,10 +50,11 @@
 }
 
 .photo{
-    background-color: #FFFF00;
+    background-color: #2ecc71;
 }
 .photo .photoBgImage{
     position: absolute;
+
 }
 
 .videoShow{
@@ -63,10 +76,12 @@
 }
 .unName1{
     background-color: #99CC33;
+
 }
 
 .unName1 .unName1BgImage{
     position: absolute;
+    transform: rotate(-60deg);
 }
 
 .unName2{
