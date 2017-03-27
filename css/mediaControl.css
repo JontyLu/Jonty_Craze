@@ -73,6 +73,9 @@ html{
         margin-left: -10%;
         top: 30%;
     }
+    .titleName{
+        visibility: visible;
+    }
 }
 
 @media (max-width: 767px){
@@ -89,6 +92,7 @@ html{
         margin-left: -10%;
         top: 30%;
     }
+
 }
 
 @media (max-width: 640px){
