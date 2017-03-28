@@ -3,7 +3,7 @@
  */
 window.onload=function(){
     var navOpenMenu = document.getElementsByClassName("navOpenMenu")[0];
-    var noNavOpenMenu = document.getElementsByClassName("navOpenMenu")[0];
+    var noNavOpenMenu = document.getElementsByClassName("container")[0];
 
     var odiv = document.getElementsByClassName("smallMenu")[0];
 
@@ -12,10 +12,14 @@ window.onload=function(){
 
         startmove(0,10);//第一个参数为div   left属性的目标值   第二个为 每次移动多少像素
 
-    }
-    navOpenMenu.nonclick =function ()
+    };
+    noNavOpenMenu.onclick =function ()
     {
-        startmove(-200,-10);
+
+        if (navOpenMenu.offsetLeft >= -10){
+            startmove(-200,-10);
+        }
+
     }
 };
 
@@ -36,5 +40,5 @@ function startmove(target,speed)
             navOpenMenu.style.left=navOpenMenu.offsetLeft+speed+'px';
         }
 
-    },30)
+    },10)
 }

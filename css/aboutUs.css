@@ -11,12 +11,19 @@ html{
 body{
     display: block;
 }
+.mask{
+
+    background-color: #fff;
+    display: inline-block;
+    box-sizing: border-box;
+}
 img{
     max-width: 100% ;
 }
 .nav{
     height: 30%;
-    padding: 2rem;
+    padding: 2rem 1rem 2rem 1rem;
+
     z-index: 10;
 }
 
@@ -90,7 +97,7 @@ img{
 
 .container{
     height: 100%;
-    margin: 3rem;
+    margin: 1rem;
     padding-top: 1rem;
     border: 0.05rem solid #ffffff;
 }
@@ -191,13 +198,14 @@ img{
         font-size: 0.5rem;
 
     }
+    .logo,.logo-divider,.logoname{
+        font-size: 0.5rem;
+    }
 }
 
 @media (max-width: 415px){
     /*<=768µÄÉè±¸*/
-    .logo,.logo-divider,.logoname{
-        font-size: 0.5rem;
-    }
+
     .eachResume{
         padding: 0.5rem;
     }
@@ -212,7 +220,7 @@ img{
         font-size: 1rem;
     }
     .navOpenMenu a{
-        margin-top: 1pxrem;
+        margin-top: 1rem;
         font-size: 0.5rem;
 
     }
