@@ -4,13 +4,16 @@
     box-sizing: border-box;
     padding: 2rem;
     position: relative;
+    background-color: #fff;
 }
 .myName{
     width: 100%;
     height:20rem;
     border: 0.01rem solid #ffffff;
-    background-image: url(../../homePage/image/airplane.svg);
- /*   background-repeat: no-repeat;*/
+    background-color: #2D3E50;
+
+    background-image: url(../../homePage/image/pen.svg);
+    background-repeat: repeat ;
     padding-top:3rem;
     text-align: center;
 }
@@ -31,8 +34,8 @@
     float: left;
     padding: 1rem 3rem 1rem 3rem;
     box-sizing: border-box;
-    color: #EA4335;
-    background-color: #fff;
+    color: #ffffff;
+    background-color: #2D3E50;
 }
 .aboutMe span{
     box-sizing: border-box;
@@ -57,7 +60,7 @@
 .resumeContent{
     width: 100%;
     box-sizing: border-box;
-    color: #ffffff;
+    color: #2D3E50;
 }
 .resumeContent div{
     width: 100%;
