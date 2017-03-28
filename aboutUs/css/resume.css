@@ -146,25 +146,6 @@
     .logo,.logo-divider,.logoname{
         font-size: 0.5rem;
     }
-
-}
-
-@media (max-width: 415px){
-    /*<=768的设备*/
-
-    .eachResume{
-        padding: 0.5rem;
-    }
-    .eachResume a h2{
-        font-size: 0.2rem;
-    }
-    .eachResume a:nth-child(2){
-        margin: 0.2rem;
-    }
-    .container h1,h4{
-        margin: 4rem 0 4rem 0;
-        font-size: 1rem;
-    }
     .myName{
         padding-top:1rem;
 
@@ -201,4 +182,24 @@
     .resumeContent>div>span:nth-child(2) span p{
         font-size: 0.2rem;
     }
+
+}
+
+@media (max-width: 415px){
+    /*<=768的设备*/
+
+    .eachResume{
+        padding: 0.5rem;
+    }
+    .eachResume a h2{
+        font-size: 0.2rem;
+    }
+    .eachResume a:nth-child(2){
+        margin: 0.2rem;
+    }
+    .container h1,h4{
+        margin: 4rem 0 4rem 0;
+        font-size: 1rem;
+    }
+
 }
