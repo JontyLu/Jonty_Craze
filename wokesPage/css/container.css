@@ -18,19 +18,19 @@
 
 
 .eachResume a{
-    width: 25%;
+    width: 20%;
     box-sizing: border-box;
     display: inline-block;
 }
 .eachResume a h2{
     font-size: 0.8rem;
     color: #ffffff;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
 }
 .eachResume a h2:hover{
     display: inline-block;
     height: 30%;
-    color: #2D3E50;
+    color: #2ecc71;
     padding: 0.1rem ;
     background: #ffffff;
     border-radius: 0.2rem;
