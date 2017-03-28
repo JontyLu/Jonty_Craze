@@ -5,7 +5,10 @@
     padding: 2rem;
     position: relative;
     background-color: #2D3E50;
+}
 
+.container .eachResume a img{
+    display: none;
 }
 .myName{
     width: 100%;
