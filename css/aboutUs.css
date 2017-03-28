@@ -17,7 +17,7 @@ img{
 .nav{
     height: 30%;
     padding: 2rem;
-
+    z-index: 10;
 }
 
 .brandContainer{
@@ -34,6 +34,12 @@ img{
     float: right;
     position: relative;
 }
+.smallMenu{
+    display: block;
+    margin-top: 0.5rem;
+    float: right;
+    visibility: hidden;
+}
 .navMenu a{
     font-size: 0.65rem;
     text-decoration: none;
@@ -42,11 +48,31 @@ img{
     text-transform: uppercase;
     color: #ffffff;
 }
-.navMenu    .active{
+.navMenu .active{
     color: #EA4335;
     background-color: #ffffff;
     border-radius: 0.3rem;
+}
+.navOpenMenu{
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    left: -10rem;
+    top: 0;
+}
+.navOpenMenu a{
+    display: block;
+    text-decoration: none;
+    line-height: 2rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
 
+}
+.navOpenMenu .active{
+    color: #EA4335;
 }
 
 
@@ -77,6 +103,8 @@ img{
     padding: 3rem;
 
 }
+
+
 .eachResume a{
     width: 20%;
     box-sizing: border-box;
@@ -129,7 +157,16 @@ img{
         margin: 2.3rem;
     }
     .navMenu{
-        visibility: hidden;
+        display: none;
+    }
+    .smallMenu{
+        width: 10%;
+        visibility: visible;
+    }
+    .navOpenMenu a{
+        margin-top: 1rem;
+        font-size: 0.5rem;
+
     }
 
 }
@@ -148,6 +185,11 @@ img{
     /*<=768µÄÉè±¸*/
     .eachResume a:nth-child(2){
         margin: 1.0rem;
+    }
+    .navOpenMenu a{
+        margin-top: 0.5rem;
+        font-size: 0.5rem;
+
     }
 }
 
@@ -168,5 +210,10 @@ img{
     .container h1{
         margin: 4rem 0 4rem 0;
         font-size: 1rem;
+    }
+    .navOpenMenu a{
+        margin-top: 1pxrem;
+        font-size: 0.5rem;
+
     }
 }
