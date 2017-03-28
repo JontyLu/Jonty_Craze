@@ -49,6 +49,9 @@ img{
 
 }
 
+
+
+
 .logoname{
     font-size: 0.65rem;
     text-decoration: none;
@@ -75,10 +78,9 @@ img{
 
 }
 .eachResume a img {
-    width: 33.3%;
+    max-width: 20%  ;
     border: 0.05rem solid #ffffff;
     border-radius: 0.5rem;
-
     overflow: hidden;
 
 }
@@ -95,4 +97,66 @@ img{
 }
 .container h1:hover{
     font-size: 2.1rem;
+}
+
+
+@media (max-width: 1199px){
+    /*<=1199的设备 */
+
+}
+
+@media (max-width: 1024px){
+    /*<=1199的设备 */
+
+}
+
+@media (max-width: 991px){
+    /*<=991的设备*/
+    .eachResume a img {
+        max-width: 20%  ;
+    }
+    .eachResume a:nth-child(2){
+        margin: 2.3rem;
+    }
+    .navMenu{
+        visibility: hidden;
+    }
+
+}
+@media (max-width: 767px){
+    /*<=768的设备*/
+
+}
+
+@media (max-width: 767px){
+    /*<=768的设备*/
+
+
+}
+
+@media (max-width: 640px){
+    /*<=768的设备*/
+    .eachResume a:nth-child(2){
+        margin: 1.0rem;
+    }
+}
+
+@media (max-width: 415px){
+    /*<=768的设备*/
+    .logo,.logo-divider,.logoname{
+        font-size: 0.5rem;
+    }
+    .eachResume{
+        padding: 0.5rem;
+    }
+    .eachResume a img {
+        max-width: 20%  ;
+    }
+    .eachResume a:nth-child(2){
+        margin: 0.2rem;
+    }
+    .container h1{
+        margin: 4rem 0 4rem 0;
+        font-size: 1rem;
+    }
 }
