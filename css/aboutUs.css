@@ -77,8 +77,18 @@ img{
     padding: 3rem;
 
 }
+.eachResume a{
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.eachResume a h2{
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
 .eachResume a img {
-    max-width: 20%  ;
+    max-width: 80%  ;
     border: 0.05rem solid #ffffff;
     border-radius: 0.5rem;
     overflow: hidden;
@@ -112,8 +122,8 @@ img{
 
 @media (max-width: 991px){
     /*<=991µÄÉè±¸*/
-    .eachResume a img {
-        max-width: 20%  ;
+    .eachResume a h2{
+        font-size: 0.6rem;
     }
     .eachResume a:nth-child(2){
         margin: 2.3rem;
@@ -149,8 +159,8 @@ img{
     .eachResume{
         padding: 0.5rem;
     }
-    .eachResume a img {
-        max-width: 20%  ;
+    .eachResume a h2{
+        font-size: 0.2rem;
     }
     .eachResume a:nth-child(2){
         margin: 0.2rem;
