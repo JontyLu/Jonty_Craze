@@ -1,5 +1,6 @@
 
 .container{
+    box-sizing: border-box;
     height: 100%;
     margin: 1rem;
     padding-top: 1rem;
@@ -25,6 +26,14 @@
     font-size: 0.8rem;
     color: #ffffff;
     margin-top: 0.5rem;
+}
+.eachResume a h2:hover{
+    display: inline-block;
+    height: 30%;
+    color: #2D3E50;
+    padding: 0.2rem;
+    background: #ffffff;
+    border-radius: 0.2rem;
 }
 .eachResume a img {
     max-width: 80%  ;
