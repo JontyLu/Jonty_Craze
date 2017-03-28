@@ -1,0 +1,38 @@
+
+.container{
+    height: 100%;
+    margin: 1rem;
+    padding-top: 1rem;
+    border: 0.05rem solid #ffffff;
+}
+
+.eachResume{
+    box-sizing: border-box;
+    border-bottom: 0.05rem solid #ffffff;
+    text-align: center;
+    position: relative;
+    padding: 1.5rem;
+
+}
+
+
+.eachResume a{
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.eachResume a h2{
+    font-size: 0.8rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}
+.eachResume a img {
+    max-width: 80%  ;
+    border: 0.05rem solid #ffffff;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+}
+.eachResume a:nth-child(2){
+    margin:0 5rem 0 5rem;
+}
