@@ -49,6 +49,14 @@
     top:40%;
 }
 
+
+.aboutUs{
+    background-color: #EA4335;
+}
+
+.aboutUs .aboutUsBgImage{
+    position: absolute;
+}
 .works{
     background-color: #2ecc71;
 }
@@ -56,7 +64,6 @@
     position: absolute;
 
 }
-
 .CrazePage{
     background-color: #FFC41A;
 }
@@ -74,6 +81,17 @@
     position: absolute;
     top:80%;
 }
+
+
+.JontyPage{
+    background-color: #2D3E50;
+}
+
+.JontyPage .JontyBgImage{
+    position: absolute;
+    transform: rotate(19deg);
+}
+
 .wspPage{
     background-color: #99CC33;
 
@@ -82,22 +100,4 @@
 .wspPage .wspBgImage{
     position: absolute;
     transform: rotate(-60deg);
-}
-
-.JontyPage{
-    background-color: #2D3E50;
-}
-
-
-.aboutUs{
-    background-color: #EA4335;
-}
-
-.aboutUs .aboutUsBgImage{
-    position: absolute;
-}
-
-.JontyPage .JontyBgImage{
-    position: absolute;
-    transform: rotate(19deg);
 }
