@@ -49,23 +49,23 @@
     top:40%;
 }
 
-.photo{
+.works{
     background-color: #2ecc71;
 }
-.photo .photoBgImage{
+.works .worksBgImage{
     position: absolute;
 
 }
 
-.videoShow{
+.CrazePage{
     background-color: #FFC41A;
 }
 
-.videoShow .videoBgImage{
+.CrazePage .CrazeBgImage{
     position: absolute;
 }
 
-.videoShow h2{
+.CrazePage h2{
     width: 100%;
     font-size: 1.5rem;
     font-weight: 900;
@@ -74,17 +74,17 @@
     position: absolute;
     top:80%;
 }
-.unName1{
+.wspPage{
     background-color: #99CC33;
 
 }
 
-.unName1 .unName1BgImage{
+.wspPage .wspBgImage{
     position: absolute;
     transform: rotate(-60deg);
 }
 
-.unName2{
+.JontyPage{
     background-color: #2D3E50;
 }
 
@@ -97,7 +97,7 @@
     position: absolute;
 }
 
-.unName2 .unName2BgImage{
+.JontyPage .JontyBgImage{
     position: absolute;
     transform: rotate(19deg);
 }
