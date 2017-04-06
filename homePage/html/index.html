@@ -16,7 +16,7 @@
 
 <div class="divBox aboutUs">
     <a href="../../aboutUs/html/aboutUsPage.html">
-        <img src="../image/airplane.svg" alt="" class="bgImage aboutUsBgImage"/>
+        <img thissrc="../image/airplane.svg" alt="" class="bgImage aboutUsBgImage"/>
         <span class = "titleName">About Us</span>
     </a>
 
@@ -24,7 +24,7 @@
 
 <div class="divBox works">
     <a href="../../wokesPage/html/workPage.html">
-        <img class="bgImage worksBgImage" src="../image/camera.svg" alt="" class="camera"/>
+        <img class="bgImage worksBgImage" thissrc="../image/camera.svg" alt="" class="camera"/>
         <span class = "titleName">Works</span>
     </a>
 
@@ -33,28 +33,33 @@
 
 <div class="divBox CrazePage">
     <a href="#">
-        <img class="bgImage CrazeBgImage" src="../image/video.svg" alt="" class="bgImage"/>
+        <img class="bgImage CrazeBgImage" thissrc="../image/video.svg" alt="" class="bgImage"/>
         <span class = "titleName">Craze's Profile</span>
     </a>
 
 </div>
 <div class="divBox JontyPage">
     <a href="https://jontylu.github.io/jonty_blog/">
-        <img class="bgImage JontyBgImage" src="../image/word.svg" alt="" class="bgImage"/>
+        <img class="bgImage JontyBgImage" thissrc="../image/word.svg" alt="" class="bgImage"/>
         <span class = "titleName">Jonty's Profile</span>
     </a>
 
 </div>
 <div class="divBox wspPage">
     <a href="#">
-        <img class="bgImage wspBgImage" src="../image/pen.svg" alt="" class="bgImage"/>
+        <img class="bgImage wspBgImage" thissrc="../image/pen.svg" alt="" class="bgImage"/>
         <span class = "titleName">Jarden's Profile</span>
     </a>
 
 </div>
-
-
-
 <script src="../js/index.js"></script>
+<script>
+    var imgs = document.getElementsByTagName("img");
+    for (var i=0; i<imgs.length; i++){
+        if(imgs[i].src == ""){
+            imgs[i].src = imgs[i].getAttribute("thissrc");
+        }
+    }
+</script>
 </body>
 </html>
